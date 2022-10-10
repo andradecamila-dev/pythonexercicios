@@ -1,0 +1,19 @@
+'''x = int(input('Digite um número para saber sua tabuada:'))
+a = x * 1
+b = x * 2
+c = x * 3
+print('{:.0f} x 1 = {:.0f}'.format(x, a))
+print('{:.0f} x 1 = {:.0f}'.format(x, b))
+print('{:.0f} x 1 = {:.0f}'.format(x, c))
+ ''       '''
+x = int(input('Digite um número para saber sua tabuada:'))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 1, x * 1))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 2, x * 2))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 3, x * 3))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 4, x * 4))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 5, x * 5))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 6, x * 6))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 7, x * 7))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 8, x * 8))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 9, x * 9))
+print('{:.0f} x {:2} = {:.0f}'.format(x, 10, x * 10))
